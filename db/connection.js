@@ -7,6 +7,7 @@ const connectDB = async () => {
     })
     .catch((err) => {
       console.log(`error to connect db ${err}`);
+      console.log("hello");
     });
 };
 export default connectDB;
